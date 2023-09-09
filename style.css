@@ -3,6 +3,7 @@
 .social-icons a{
     color: #FFFFFF;
     margin: 5px;
+    text-decoration: none;
 }
 
 html{
