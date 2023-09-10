@@ -11,20 +11,20 @@
     
 </head>
 <body>
-    <nav class="navbar navbar-expand-md bg-black" data-bs-theme="dark">
+    <nav ud="main-nav" class="navbar navbar-expand-md bg-black" data-bs-theme="dark">
         <div class="container">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">HOME</a> 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="https://laylo.com/riovaz/m/rioraveii" target="_blank">TOUR</a>
+                        <a class="nav-link " href="#tour" target="_blank">TOUR</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#">STORE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">MUSIC</a>
+                        <a class="nav-link" href="#music">MUSIC</a>
                     </li>
                 </ul>
             
@@ -43,11 +43,11 @@
         </div>
     </nav>
 
-    <main class="text-white bg-black">
+    <main class="text-white bg-black scrollspy" data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
         <div id="main-carousel" class="carousel slide mt-3" >
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <video src="27.mp4" type="video/mp4" class="object-fit-fill d-block w-100" autoplay playsinline alt="27" ></video>
+                <video src="27.mp4" type="video/mp4" class="object-fit-fill d-block w-100" muted autoplay playsinline alt="27" ></video>
               </div>
               <div class="carousel-item">
                 <img src="2.jpg" class="d-block w-100" alt="...">
@@ -68,7 +68,7 @@
 
           <div class="container-sm  mt-5 ">
             <div class="row">
-                <h1>MUSIC</h1>
+                <h1 id="music">MUSIC</h1>
             </div>
                 <div class="carousel slide">
                     <div id="music-carousel" class="carousel slide" >
@@ -80,7 +80,7 @@
                             </div>
                           </div>
                           <div class="carousel-item">
-                            <img src="dtn.png" class="d-block w-100" alt="dtn">
+                            <img src="dtn.jpg" class="d-block w-100" alt="dtn">
                             <div class="carousel-caption">
                                 <a href="https://riovaz.lnk.to/waitingalone" target="_blank" class="btn btn-light" role="button" aria-disabled="true">Stream</a>
                             </div>
@@ -106,7 +106,7 @@
 
           <div class="container mt-5">
             <div class="row">
-                <h1>TOUR</h1>
+                <h1 id="tour">TOUR</h1>
                 <div class="col-md-8 mt-2">
                     <img src="riorave-updated.png" alt="riorave2" class="img-fluid">
                 </div>
