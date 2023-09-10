@@ -10,28 +10,28 @@
     
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-black border">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-md bg-black" data-bs-theme="dark">
+        <div class="container">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">HOME</a> 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">TOUR</a>
+                        <a class="nav-link " href="https://laylo.com/riovaz/m/rioraveii" target="_blank">TOUR</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">STORE</a>
+                        <a class="nav-link disabled" href="#">STORE</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">MUSIC</a>
                     </li>
                 </ul>
             
-                <a class="nav-brand" href="#">
+                <a class="nav-brand justify-content-center" href="#">
                     <img src="logo.png" alt="LOGO" width="250" height="150">
                 </a>
 
-                <ul class="navbar-nav social-icons">
+                <ul class="navbar-nav justify-content-end social-icons">
                     <li><a href="https://open.spotify.com/artist/1bhZt10yZVCJfp3HaNxJv8?si=q2_BItGQTJecPS1mQ5aAyA" target="_blank" class="fab fa-spotify"></i></a></li>
                     <li><a href="https://www.youtube.com/@riovaz4738" target="_blank" class="fab fa-youtube"></i></a></li>
                     <li><a href="https://www.instagram.com/riovaz" target="_blank" class="fab fa-instagram"></i></a></li>
@@ -42,11 +42,70 @@
         </div>
     </nav>
 
-    <div class="container border">
+    <main class="text-white bg-black">
+        <div id="maincarousel" class="carousel slide" >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <video src="27.mp4" class="object-fit-fill d-block w-100" muted autoplay loop controls alt="27" ></video>
+              </div>
+              <div class="carousel-item">
+                <img src="2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="1.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#maincarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#maincarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
-    </div>
+          <div class="container  mt-5 ">
+            <div class="row">
+                <h1>MUSIC</h1>
+            </div>
+                <div class="carousel slide">
+                    <div id="music-carousel" class="carousel slide" >
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="waitingalone.png" class="d-block w-100" alt="waiting-alone">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="https://riovaz.lnk.to/waitingalone" target="_blank" class="btn btn-light btn-lg" role="button" aria-disabled="true">Listen/Download</a>
 
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="dtn.png" class="d-block w-100" alt="dtn">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="https://riovaz.lnk.to/waitingalone" target="_blank" class="btn btn-light btn-lg" role="button" aria-disabled="true">Listen/Download</a>
 
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="dtn.jpg" class="d-block w-100" alt="dtn">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="https://riovaz.lnk.to/waitingalone" target="_blank" class="btn btn-light btn-lg" role="button" aria-disabled="true">Listen/Download</a>
+
+                              </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#music-carousel" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#music-carousel" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+          </div>
+    </main>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
