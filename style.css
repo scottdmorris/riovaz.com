@@ -10,3 +10,7 @@ body{
     background-color: black;
 }
 
+.rounded-pill{
+    font-weight: bold;
+}
+
