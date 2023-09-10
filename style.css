@@ -14,3 +14,9 @@ body{
     font-weight: bold;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+    width: 100px; /* Adjust the width as needed */
+    height: 1080px; /* Adjust the height as needed */
+    font-size: 14px; /* Adjust the font size as needed */
+}
