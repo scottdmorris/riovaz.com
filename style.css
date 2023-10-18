@@ -1,17 +1,31 @@
 @import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css'); 
 
+body{
+    background-color: black;
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    font-size: small;
+}
 .social-icons a{
     color: #FFFFFF;
     margin: 5px;
     text-decoration: none;
 }
 
-body{
-    background-color: black;
+
+
+.nav-link.active{
+    font-weight: bolder;
+    text-decoration: none;
 }
 
-.rounded-pill{
-    font-weight: bold;
+.nav-link{
+    text-decoration: underline;
+}
+
+.navbar-sm{
+    background-color: #edecf0;
+    height: 20px;
+
 }
 
 .carousel-control-prev,
