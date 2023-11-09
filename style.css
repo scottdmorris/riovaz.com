@@ -18,3 +18,8 @@ body{
 .copyright {
     font-size: smaller;
 }
+
+.a {
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    font-size: 8px;
+}
