@@ -1,7 +1,7 @@
 @import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css'); 
 
-.social-icons a{
-    color: #FFFFFF;
+.social-icons{
+    color: #ffffff;
     margin: 5px;
     text-decoration: none;
 }
